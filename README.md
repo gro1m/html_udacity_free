@@ -82,3 +82,17 @@ Grid systems use usually 12 columns, as it is dividable into 2, 3 and 4 columns.
 
 overflow:
 allows to contain a lot of text in a very small area.
+
+Media queries:
+changing CSS properties depending on the device, screen size and color.
+Always starts with `@media` - only helps with older browsers.
+
+normalize.css normalized acrossed all browsers.
+
+Semantic tags:
+- Header 1 to 4: <h1>, <h4>
+- Image: <img>
+- Form: <form>
+  
+  
+Find fonts: google.com/fonts
