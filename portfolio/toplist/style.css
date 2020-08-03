@@ -1,0 +1,29 @@
+/*
+* {
+   outline: 1px solid red !important;
+}*/
+
+.app {
+	display: -webkit-flex; /* to support safari */
+	display: flex;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 15px;
+}
+
+
+.title {
+	background-color: #33bebe;
+}
+.screenshot {
+	max-width: 460px;
+}
+
+.description {
+	max-width: 705px;
+}
