@@ -23,4 +23,44 @@ Each tag has a type (paragraph, image, etc.) and can have attributes (e.g.) clas
 To define the style you use CSS.
 Also circle is a rectangular box, defined via border radius in CSS file.
 
-boxes -> <div>-tag.
+For boxes: use <div>-tag.
+
+HTML elements reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning
+HTML5: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#The_HTML5_outline_algorithm
+CSS reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+normalize CSS across different browsers: http://necolas.github.io/normalize.css/
+
+Box-sizing:
+```
+* {
+   outline: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+```
+
+Flex box:
+```
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+```
+
+Adding images:
+```
+<img src="images/app.png" alt="This is a screenshot">
+```
+
+Code, Test and Refine:
+1. Look for natural boxes
+2. Look for repeated styles and semantic elements.
+3. Write your HTML.
+4. Apply styles (from BIGGEST to smallest)
+5. Fix things (different browsers, etc.)
