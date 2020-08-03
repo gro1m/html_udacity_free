@@ -64,3 +64,5 @@ Code, Test and Refine:
 3. Write your HTML.
 4. Apply styles (from BIGGEST to smallest)
 5. Fix things (different browsers, etc.)
+
+Developer Tools: you can resize stuff change elements, etc. and by refreshing the page, it is back to the original layout.
