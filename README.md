@@ -66,3 +66,14 @@ Code, Test and Refine:
 5. Fix things (different browsers, etc.)
 
 Developer Tools: you can resize stuff change elements, etc. and by refreshing the page, it is back to the original layout.
+
+W3C CSS Validation Service:
+verify html: http://validator.w3.org/#validate_by_input
+verify css: http://jigsaw.w3.org/css-validator/#validate_by_input
+
+Responsive design principles: different devices use different resolution of screen in pixels.
+adaptive design: adapt to how website is used - thumbs on tablets and phones instead of a mouse.
+start in top left, left-to-right, then top-to-bottom -> grid-based layout.
+
+Frameworks: collections of CSS classes that make page layout easier to implement
+
