@@ -77,3 +77,8 @@ start in top left, left-to-right, then top-to-bottom -> grid-based layout.
 
 Frameworks: collections of CSS classes that make page layout easier to implement
 
+Grid systems use usually 12 columns, as it is dividable into 2, 3 and 4 columns.
+
+
+overflow:
+allows to contain a lot of text in a very small area.
